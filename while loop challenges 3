@@ -3,7 +3,9 @@ firstnumber = number
 total = firstnumber
 variable = "y"
 while variable == "y":
-  number = int(input("enter another number"))
-    total= total + number
-    str(input("do you want to add another number"))
-    if answer == "y":
+  number2= int(input("enter another number"))
+  number= number + number2
+  variable =str(input("do you want to add another number y or n"))
+
+
+print("the total is ... ", number)
