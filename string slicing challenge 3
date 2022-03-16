@@ -1,0 +1,4 @@
+firstname=str(input("please enter your first name")).lower()
+lastname=str(input("enter your last name")).lower()
+print(firstname," ",lastname)
+
