@@ -1,0 +1,2 @@
+for i in "paris":
+  print(i*10000)
