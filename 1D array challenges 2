@@ -1,1 +1,15 @@
+cars = []
+sentry = True
+while sentry == True:
+  brand = str(input( "enter a car brand or press x to exit   "))
+  if brand == "x":
+    print("exiting...")
+    sentry = False
+    
+
+  else:
+    cars.append(brand)
+    sentry = True
+
+print(cars)
 
