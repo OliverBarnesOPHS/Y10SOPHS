@@ -1,0 +1,5 @@
+O = open("numbers.txt","w")
+user =input(str("enter 5 numbers of ur choice"))
+O.write(user)
+O.close()
+
