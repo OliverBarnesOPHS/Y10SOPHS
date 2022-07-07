@@ -1,0 +1,18 @@
+def Careermode():
+  print("Career mode chosen")
+  
+def TournamentMode():
+    print("Tournament Mode chosen")
+  
+  
+def onlineseasons():
+    print("online seasons chosen")
+
+def menu():
+  print("press 1 for  career mode ")
+  print("press 2 for Tournament mode")
+  print("press 3 for online seasons")
+  print("press 4 to exit")
+
+
+menu()
