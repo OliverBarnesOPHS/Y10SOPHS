@@ -1,0 +1,22 @@
+def mariokart():
+  print("1) 1-player")
+  print("2) 2-player")
+  print("3) online")
+  print("4) exit")
+
+  choose = int(input("enter a number 1 to 4   "))
+
+  if choose == 1:
+    print("1 player selected")
+
+  if choose == 2:
+    print("2 player selected")
+
+  if choose == 3:
+    print("online selected")
+
+  if choose == 4:
+    print("exiting...")
+
+
+mariokart()
