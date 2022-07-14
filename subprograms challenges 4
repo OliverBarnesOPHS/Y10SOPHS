@@ -1,0 +1,39 @@
+def player1Game():
+    print('Creative game chosen')
+
+def player2Game():
+    print('Survival game chosen')
+    
+def online():
+    print('Hardcore game chosen')
+
+def adventure():
+    print('Adventure chosen')
+
+def menu():
+    print('press 1 for Creative')
+    print('press 2 for Survival')
+    print('press 3 for Hardcore')
+    print('press 4 for to Adventure')
+    print('press 5 to exit')
+
+    UserInput = int(input('Enter 1, 2, 3, 4 or 5 >>>'))
+
+    if UserInput == 1:
+        player1Game()
+    elif UserInput == 2:
+        player2Game()
+    elif UserInput == 3:
+        online()
+    elif UserInput == 4:
+        adventure()
+    elif UserInput == 5:
+        print('')
+        print('Exiting...')
+    else:
+        print('')
+        print('')  
+        print('Input Invalid... Try Again')
+        menu()
+
+menu()
