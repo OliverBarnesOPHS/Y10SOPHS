@@ -1,0 +1,8 @@
+def callofduty():
+  print("1)domination")
+  print("2)team deathmatch")
+  print("3)headquarters")
+
+  choose = int(input("enter a number from 1 to 3   "))
+
+callofduty()
